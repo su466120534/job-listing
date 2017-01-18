@@ -80,7 +80,7 @@
 
 
 .jumbotron {
-  background-image:url('https://fsmedia.imgix.net/0f/7c/3a/d2/dee9/4ea8/a1a9/9320b66e270d/red-dragon-landing-marsjpg.jpeg');
+  background-image:url('https://www.nasa.gov/images/content/369257main_launch3_full.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 110px;
@@ -118,7 +118,7 @@
 .navbar-brand > img {
     display: inline-block;	//图片和链接文字显示在同一行
     margin-right: 10px; //图片和链接文字拉开一点距离
-    width: 200px; //定制图片宽度
+    width: 230px; //定制图片宽度
     height: 32px; //定制图片高度
 }
 
@@ -133,5 +133,154 @@
     border: 0 none;
     box-shadow: none;
     margin-top: 30px;
-    
+
+}
+
+.Middle-Slogan {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: black;
+
+}
+
+
+.footer {
+  margin-top: 6em;
+  padding: 4em 0;
+  background-color: #212121;//背景颜色
+  position: relative;
+
+  .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('<%= asset_path "library.jpg" %>') center center no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .copy {
+    padding-top: 2em;
+    color: rgba(255, 255, 255, 0.6);
+
+    a {
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: underline;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.footer-text {
+  font-family: sans-serif;
+
+  margin-top: 6px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #E0E0E0;
+  top: 12px;
+}
+
+//footer的CSS如下
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
 }
