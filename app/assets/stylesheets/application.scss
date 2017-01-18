@@ -35,7 +35,7 @@
 
 
  .container-fluid .jumbotron{
-   padding-bottom: 110px;//内部的底部边距，这样按钮不会很靠近底部了
+   padding-bottom: 50px;//内部的底部边距，这样按钮不会很靠近底部了
    margin: 0 -15px 20px;//顶部margin为0，因此可以直接接着导航栏；左右margin为负15，因此可以顶到浏览器的边缘（抵消 container-fluid 的 15px 左右padding);底部margin为20，会跟下面的内容撑开距离
    border-radius: 0;//圆角为0
  }
@@ -49,7 +49,7 @@
 
 .jumbotron p {
     margin: 0;//上下左右margin为0
-    font-size: 26px;//字体大小
+    font-size: 22px;//字体大小
     max-width: 500px;//最大宽度
     background-color: rgba(250, 250, 250, 0.39);//背景颜色含透明度
     padding: 20px;//上下左右padding为20px
@@ -88,16 +88,20 @@
 
 
  .title {
+  font-family:Arial,'Times New Roman','Microsoft YaHei',SimHei;
   background-color: rgba(250, 250, 250, 0.39);//背景颜色含透明度
   max-width: 500px;//最大宽度
   margin-top: 200px;//和顶部拉开距离
   margin-bottom: 0;//这样就可以紧接息面的描述文字
   border-top-right-radius: 3px;//右上角圆边
   border-top-left-radius: 3px;//左上角圆边
+
 }
 
 
 .slogan {
+  font-family: sans-serif;
+
   margin-top: 10px;
   margin-bottom: 50px;
   text-align: center;
@@ -116,4 +120,18 @@
     margin-right: 10px; //图片和链接文字拉开一点距离
     width: 200px; //定制图片宽度
     height: 32px; //定制图片高度
+}
+
+
+.caption {
+  margin: 30px;
+  text-align: center;
+  top: 20px;
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+    margin-top: 30px;
+    
 }
