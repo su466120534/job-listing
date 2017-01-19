@@ -49,18 +49,14 @@ body {
 }
 
 #video-background {
-
+  position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%;
-  min-height: inherit;
+  min-height: 100%;
   width: auto;
   height: auto;
   z-index: -100;
-  background-repeat: no-repeat;
-  background-size: auto;;
-  margin: 0 -15px 20px;//顶部margin为0，因此可以直接接着导航栏；左右margin为负15，因此可以顶到浏览器的边缘（抵消 container-fluid 的 15px 左右padding);底部margin为20，会跟下面的内容撑开距离
-  border-radius: 0;//圆角为0
 }
 
 article {
@@ -87,7 +83,7 @@ h1 {
 .slogan-font {
   font-family: sans-serif;
   font-size: 20px;
-  margin-top: 500px;
+  margin-top: 360px;
   margin-bottom: 50px;
   text-align: center;
   color: white;
